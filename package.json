@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "java-parser": "^2.0.4",
+    "radon": "^0.0.2"
+  }
+}

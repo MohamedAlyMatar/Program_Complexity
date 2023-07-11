@@ -1,0 +1,45 @@
+/* CSS styling for the interface */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.input-bar select {
+    margin-bottom: 10px;
+}
+
+.input-bar textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+}
+
+.output-field {
+    width: 100%;
+    height: 100px;
+}
+
+.btn {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

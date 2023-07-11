@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Program Complexity Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Program Complexity Calculator</h1>
+        <div class="input-bar">
+            <select id="language-select">
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="cpp">C++</option>
+        <!-- Add more language options here -->
+      </select>
+            <textarea id="code-input" placeholder="Enter your code here"></textarea>
+        </div>
+        <button id="calculate-button" class="btn">Calculate Complexity</button>
+        <div class="output-field">
+            <pre id="output-result"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
